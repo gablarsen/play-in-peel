@@ -1,0 +1,572 @@
+# Logfile created on 2015-01-30 01:32:58 -0800 by logger.rb/44203
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Environment: development
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Dispatcher: webrick
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Application: development
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing Net instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing deferred Rack instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing Sidekiq instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 01:32:58 -0800 lions-Mac-58.local (93216)] INFO : Finished instrumentation
+[01/30/15 01:32:59 -0800 lions-Mac-58.local (93216)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 01:32:59 -0800 lions-Mac-58.local (93216)] INFO : Installing Sinatra instrumentation
+[01/30/15 01:33:18 -0800 lions-Mac-58.local (93216)] ERROR : Unknown license key
+[01/30/15 01:33:18 -0800 lions-Mac-58.local (93216)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Environment: development
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Dispatcher: webrick
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Application: development
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Net instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing deferred Rack instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Sidekiq instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Finished instrumentation
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 01:46:35 -0800 lions-Mac-58.local (93246)] INFO : Installing Sinatra instrumentation
+[01/30/15 01:55:58 -0800 lions-Mac-58.local (93246)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[01/30/15 01:55:58 -0800 lions-Mac-58.local (93246)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: getaddrinfo: nodename nor servname provided, or not known
+[01/30/15 01:55:58 -0800 lions-Mac-58.local (93246)] INFO : Will re-attempt in 60 seconds
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Environment: development
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Dispatcher: webrick
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Application: development
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing Net instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing deferred Rack instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing Sidekiq instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 02:07:39 -0800 lions-Mac-58.local (93586)] INFO : Finished instrumentation
+[01/30/15 02:07:40 -0800 lions-Mac-58.local (93586)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 02:07:40 -0800 lions-Mac-58.local (93586)] INFO : Installing Sinatra instrumentation
+[01/30/15 02:07:48 -0800 lions-Mac-58.local (93586)] ERROR : Unknown license key
+[01/30/15 02:07:48 -0800 lions-Mac-58.local (93586)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Environment: development
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Dispatcher: webrick
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Application: development
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing Net instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing deferred Rack instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing Sidekiq instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 02:08:00 -0800 lions-Mac-58.local (93596)] INFO : Finished instrumentation
+[01/30/15 02:08:01 -0800 lions-Mac-58.local (93596)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 02:08:01 -0800 lions-Mac-58.local (93596)] INFO : Installing Sinatra instrumentation
+[01/30/15 02:22:40 -0800 lions-Mac-58.local (93596)] ERROR : Unknown license key
+[01/30/15 02:22:40 -0800 lions-Mac-58.local (93596)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Environment: development
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Dispatcher: webrick
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Application: development
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing Net instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing deferred Rack instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing Sidekiq instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 06:05:31 -0800 lions-Mac-58.local (94188)] INFO : Finished instrumentation
+[01/30/15 06:05:32 -0800 lions-Mac-58.local (94188)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 06:05:32 -0800 lions-Mac-58.local (94188)] INFO : Installing Sinatra instrumentation
+[01/30/15 06:06:09 -0800 lions-Mac-58.local (94188)] ERROR : Unknown license key
+[01/30/15 06:06:09 -0800 lions-Mac-58.local (94188)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Environment: development
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Dispatcher: webrick
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Application: development
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing Net instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing deferred Rack instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing Sidekiq instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 06:08:24 -0800 lions-Mac-58.local (94228)] INFO : Finished instrumentation
+[01/30/15 06:08:25 -0800 lions-Mac-58.local (94228)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 06:08:25 -0800 lions-Mac-58.local (94228)] INFO : Installing Sinatra instrumentation
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : Environment: development
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : Dispatcher: webrick
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : Application: development
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:19:47 -0800 lions-Mac-58.local (96210)] INFO : Installing Net instrumentation
+[01/30/15 18:19:48 -0800 lions-Mac-58.local (96210)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:19:48 -0800 lions-Mac-58.local (96210)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:19:48 -0800 lions-Mac-58.local (96210)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:19:48 -0800 lions-Mac-58.local (96210)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:19:48 -0800 lions-Mac-58.local (96210)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:19:48 -0800 lions-Mac-58.local (96210)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:19:48 -0800 lions-Mac-58.local (96210)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:19:48 -0800 lions-Mac-58.local (96210)] INFO : Finished instrumentation
+[01/30/15 18:19:57 -0800 lions-Mac-58.local (96210)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 18:19:57 -0800 lions-Mac-58.local (96210)] INFO : Installing Sinatra instrumentation
+[01/30/15 18:20:10 -0800 lions-Mac-58.local (96210)] ERROR : Unknown license key
+[01/30/15 18:20:10 -0800 lions-Mac-58.local (96210)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : Environment: development
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : No known dispatcher detected.
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : Application: development
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : Installing Net instrumentation
+[01/30/15 18:23:25 -0800 lions-Mac-58.local (96343)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:23:26 -0800 lions-Mac-58.local (96343)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:23:26 -0800 lions-Mac-58.local (96343)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:23:26 -0800 lions-Mac-58.local (96343)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:23:26 -0800 lions-Mac-58.local (96343)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:23:26 -0800 lions-Mac-58.local (96343)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:23:26 -0800 lions-Mac-58.local (96343)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:23:26 -0800 lions-Mac-58.local (96343)] INFO : Finished instrumentation
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] INFO : Environment: development
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] INFO : No known dispatcher detected.
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] INFO : Application: development
+[01/30/15 18:29:30 -0800 lions-Mac-58.local (96503)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing Net instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:29:31 -0800 lions-Mac-58.local (96503)] INFO : Finished instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Environment: development
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : No known dispatcher detected.
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Application: development
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing Net instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:33:19 -0800 lions-Mac-58.local (96550)] INFO : Finished instrumentation
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] INFO : Environment: development
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] INFO : No known dispatcher detected.
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] INFO : Application: development
+[01/30/15 18:33:26 -0800 lions-Mac-58.local (96552)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing Net instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:33:27 -0800 lions-Mac-58.local (96552)] INFO : Finished instrumentation
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] INFO : Environment: development
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] INFO : No known dispatcher detected.
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] INFO : Application: development
+[01/30/15 18:33:33 -0800 lions-Mac-58.local (96554)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing Net instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:33:34 -0800 lions-Mac-58.local (96554)] INFO : Finished instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Environment: development
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : No known dispatcher detected.
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Application: development
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing Net instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:33:46 -0800 lions-Mac-58.local (96559)] INFO : Finished instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Environment: development
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : No known dispatcher detected.
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Application: development
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing Net instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:34:19 -0800 lions-Mac-58.local (96561)] INFO : Finished instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Environment: development
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : No known dispatcher detected.
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Application: development
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing Net instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:35:41 -0800 lions-Mac-58.local (96566)] INFO : Finished instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Environment: development
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : No known dispatcher detected.
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Application: development
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing Net instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:35:46 -0800 lions-Mac-58.local (96570)] INFO : Finished instrumentation
+[01/30/15 18:35:51 -0800 lions-Mac-58.local (96572)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:35:51 -0800 lions-Mac-58.local (96572)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:35:51 -0800 lions-Mac-58.local (96572)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:35:51 -0800 lions-Mac-58.local (96572)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:35:51 -0800 lions-Mac-58.local (96572)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Environment: development
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : No known dispatcher detected.
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Application: development
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing Net instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:35:52 -0800 lions-Mac-58.local (96572)] INFO : Finished instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Environment: development
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Dispatcher: webrick
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Application: development
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Net instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Finished instrumentation
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 18:40:16 -0800 lions-Mac-58.local (96608)] INFO : Installing Sinatra instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Environment: development
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Dispatcher: webrick
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Application: development
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing Dalli Memcache instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing Net instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing deferred Rack instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing Rack::Builder middleware instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing Rails 3+ middleware instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing Sidekiq instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing Rails 4 view instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Installing Rails 4 Error instrumentation
+[01/30/15 18:40:28 -0800 lions-Mac-58.local (96612)] INFO : Finished instrumentation
+[01/30/15 18:40:29 -0800 lions-Mac-58.local (96612)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/15 18:40:29 -0800 lions-Mac-58.local (96612)] INFO : Installing Sinatra instrumentation
+[01/30/15 18:40:32 -0800 lions-Mac-58.local (96612)] ERROR : Unknown license key
+[01/30/15 18:40:32 -0800 lions-Mac-58.local (96612)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Environment: development
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Dispatcher: webrick
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Application: development
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing Dalli Memcache instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing Net instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing deferred Rack instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing Sidekiq instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 01:46:30 -0800 lions-Mac-58.local (18055)] INFO : Finished instrumentation
+[02/03/15 01:46:32 -0800 lions-Mac-58.local (18055)] INFO : Doing deferred dependency-detection before Rack startup
+[02/03/15 01:46:32 -0800 lions-Mac-58.local (18055)] INFO : Installing Sinatra instrumentation
+[02/03/15 01:46:36 -0800 lions-Mac-58.local (18055)] ERROR : Unknown license key
+[02/03/15 01:46:36 -0800 lions-Mac-58.local (18055)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/desktop/rails4-starterkit)
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Environment: development
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Dispatcher: webrick
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Application: development
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Dalli Memcache instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Net instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing deferred Rack instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Sidekiq instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Finished instrumentation
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Doing deferred dependency-detection before Rack startup
+[02/03/15 01:49:04 -0800 lions-Mac-58.local (18076)] INFO : Installing Sinatra instrumentation
+[02/03/15 01:49:22 -0800 lions-Mac-58.local (18076)] ERROR : Unknown license key
+[02/03/15 01:49:22 -0800 lions-Mac-58.local (18076)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Starting the New Relic agent in "development" environment.
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/Documents/work/rails4-starterkit)
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Environment: development
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Dispatcher: webrick
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Application: development
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing ActiveRecord 4 instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing Dalli Memcache instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing Net instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing deferred Rack instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing Rack::Builder middleware instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing Rails 3+ middleware instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing Sidekiq instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing Rails 4 Controller instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing Rails 4 view instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Installing Rails 4 Error instrumentation
+[02/06/15 00:41:55 -0800 lions-Mac-58.local (2397)] INFO : Finished instrumentation
+[02/06/15 00:41:57 -0800 lions-Mac-58.local (2397)] INFO : Doing deferred dependency-detection before Rack startup
+[02/06/15 00:41:57 -0800 lions-Mac-58.local (2397)] INFO : Installing Sinatra instrumentation
+[02/06/15 00:42:05 -0800 lions-Mac-58.local (2397)] ERROR : Invalid license key, please contact support@newrelic.com
+[02/06/15 00:42:05 -0800 lions-Mac-58.local (2397)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Starting the New Relic agent in "development" environment.
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/Documents/work/rails4-starterkit)
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Environment: development
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Dispatcher: webrick
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Application: development
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing ActiveRecord 4 instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Dalli Memcache instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Net instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing deferred Rack instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Rack::Builder middleware instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Rails 3+ middleware instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Sidekiq instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Rails 4 Controller instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Rails 4 view instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Rails 4 Error instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Finished instrumentation
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Doing deferred dependency-detection before Rack startup
+[02/06/15 00:46:51 -0800 lions-Mac-58.local (2541)] INFO : Installing Sinatra instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Starting the New Relic agent in "development" environment.
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/Documents/work/rails4-starterkit)
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Environment: development
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : No known dispatcher detected.
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Application: development
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing ActiveRecord 4 instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing Dalli Memcache instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing Net instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing deferred Rack instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing Rack::Builder middleware instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing Rails 3+ middleware instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing Sidekiq instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing Rails 4 Controller instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing Rails 4 view instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Installing Rails 4 Error instrumentation
+[02/06/15 01:08:19 -0800 lions-Mac-58.local (3285)] INFO : Finished instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Starting the New Relic agent in "development" environment.
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/Documents/work/rails4-starterkit)
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Environment: development
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : No known dispatcher detected.
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Application: development
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing ActiveRecord 4 instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing Dalli Memcache instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing Net instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing deferred Rack instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing Rack::Builder middleware instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing Rails 3+ middleware instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing Sidekiq instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing Rails 4 Controller instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing Rails 4 view instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Installing Rails 4 Error instrumentation
+[02/06/15 01:17:13 -0800 lions-Mac-58.local (3330)] INFO : Finished instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Starting the New Relic agent in "development" environment.
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Reading configuration from config/newrelic.yml (/Users/lion/Documents/work/rails4-starterkit)
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] ERROR : Failed to read or parse configuration file at config/newrelic.yml
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] ERROR : Psych::SyntaxError: (<unknown>): mapping values are not allowed in this context at line 40 column 32
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Environment: development
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Dispatcher: webrick
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Application: development
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing ActiveRecord 4 instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing Dalli Memcache instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing Net instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing deferred Rack instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing Rack::Builder middleware instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing Rails 3+ middleware instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing Sidekiq instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing Rails 4 Controller instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing Rails 4 view instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Installing Rails 4 Error instrumentation
+[02/06/15 02:01:31 -0800 lions-Mac-58.local (3492)] INFO : Finished instrumentation
+[02/06/15 02:01:32 -0800 lions-Mac-58.local (3492)] INFO : Doing deferred dependency-detection before Rack startup
+[02/06/15 02:01:32 -0800 lions-Mac-58.local (3492)] INFO : Installing Sinatra instrumentation
+[02/06/15 02:27:34 -0800 lions-Mac-58.local (3492)] ERROR : Invalid license key, please contact support@newrelic.com
+[02/06/15 02:27:34 -0800 lions-Mac-58.local (3492)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.

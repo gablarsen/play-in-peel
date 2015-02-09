@@ -1,0 +1,37 @@
+
+heroku addons:add heroku-postgresql
+heroku addons:add memcachier
+heroku addons:add newrelic
+heroku addons:add pgbackups
+heroku addons:add redistogo
+heroku addons:add sendgrid
+heroku addons:add mongolab
+
+heroku config:add DEVISE_SECRET_KEY="$(bundle exec rake secret)"
+heroku config:add DEVISE_PEPPER="$(bundle exec rake secret)"
+heroku config:add SECRET_KEY_BASE="$(bundle exec rake secret)"
+heroku config:set REDIS_URL=`heroku config:get REDISTOGO_URL`
+
+
+heroku config:set AUTH_FACEBOOK_KEY=1568626176714459
+heroku config:set AUTH_FACEBOOK_SECRET=876ef200afbd90c203ded30d780b45c4
+heroku config:set AUTH_TWITTER_KEY=kDRW2cZg30N7i7Kb1V9T0fmy7
+heroku config:set AUTH_TWITTER_SECRET=gQyB5k44B6CK2MSZDtg5byM7SCUjU6REZ7ztV2Fxu0dCyyBZwi
+heroku config:set DEVISE_PEPPER=1e357cae015c43c1c26cabe8bf7482d86610562a6c06dac6946a3dc12117188ab7b654cf883c4295cccab823f1d86f687efc9874e7e1cca8d97091294f688790
+heroku config:set DEVISE_SECRET_KEY=35a2ba9f3452a0a36b8e8c8f758e47468290b799ddd4fbc7553aa4d200052ef136e265021964fcb5d59a9f9db99deef6f49584a4ece3045a505587720cb71a7a
+heroku config:set MAIL_HOST=https://playinpeel.herokuapp.com
+heroku config:set MAIL_PROVIDER_ADDRESS=smtp.elasticemail.com
+heroku config:set MAIL_PROVIDER_PASSWORD=df64827f-a295-47ae-9b1d-0a0accb5f179
+heroku config:set MAIL_PROVIDER_USERNAME=df64827f-a295-47ae-9b1d-0a0accb5f179
+heroku config:set SENDGRID_PASSWORD=ysanlf7r
+heroku config:set SENDGRID_USERNAME=app32830937@heroku.com
+heroku config:set SECRET_KEY_BASE=fa43574d2f565c0f67e5f3deadfc975a370ec2b98fb3836ca4b8a12a9a85af6a1fa737201a7808944ec36bc42076ddb64cd375faac650b9d7158ba55ba11ffa3
+ 
+heroku config:set REDIS_PROVIDER=redis://redistogo:fc1215ba2007006bb6fa36e073c9bc31@dab.redistogo.com:9935/
+heroku config:set REDIS_URL=redis://redistogo:fc1215ba2007006bb6fa36e073c9bc31@dab.redistogo.com:9935/
+ 
+
+Heroku Login detail
+gab.larsen@outlook.com
+gabHeather123
+
